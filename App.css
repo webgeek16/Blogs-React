@@ -1,0 +1,119 @@
+.blog-title{
+    margin: 5px 0 0 0;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 5px;
+    cursor: pointer;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow-x: hidden;
+    width: 346px;
+    display: inline-block;
+} 
+.blog-title:hover{
+  color: blue;
+}
+
+
+.blog-title:hover{
+  text-decoration: underline;
+}
+.blog-content{
+  margin: 20px;
+  /* border: 1px solid; */
+  width: fit-content;
+}
+.blog-text{
+  margin: 10px;
+  text-indent: 20px;
+}
+
+.blog-details{
+  text-align: center;
+}
+.blog-details:hover{
+  text-decoration: underline;
+}
+
+.create-blog{
+  cursor: pointer;
+  padding: 5px;
+  border: 1px solid;
+  border-radius: 5px;
+  margin:20px 5px 5px 30px ;
+  display: inline-block;
+}
+.create-blog:hover{
+  box-shadow: 5px 5px lightgray;
+  
+}
+.create-blog-title, .create-blog-text{
+  display: inline-block;
+}
+.create-blog-text{
+  display: inline-block;
+  width: 400px;
+  height: 100px;
+  resize: both;
+}
+.create-blog-titleWrapper, .create-blog-textWrapper{
+  display: block;
+  margin: 10px;
+}
+.create-blog-label{
+  display: inline-block;
+  width:100px;
+}
+.blog-delete{
+  display: inline-block;
+  margin: 5px;
+}
+.blog-delete:hover{
+  box-shadow: 5px 5px lightgray;
+}
+.create-blog-wrapper{
+  width: fit-content;
+}
+.create-blog-save{
+  float: right;
+  border-radius: 5px;
+}
+.create-blog-save:hover, .create-blog-cancel:hover{
+  background-color: white;
+  box-shadow: 5px 5px lightgray;
+}
+.create-blog-cancel{
+  float: right;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+.landingPage-container{
+  width: 42%;
+  border: 1px solid grey;
+  background-color: aliceblue;
+  padding: 15px 5px 5px 5px;
+  border-radius: 5px;
+  height: fit-content;
+  min-height: 400px;
+  display: inline;
+  float: left;
+  margin:10px 5px 10px 20px;
+}
+.routing-contatiner{
+  width: 45%;
+  border: 1px solid;
+  background-color: aliceblue;
+  padding: 20px 5px 5px 20px;
+  border-radius: 5px;
+  min-height: 400px;
+  display: inline;
+  float: right;
+  margin:10px 70px 10px 5px;
+}
+.landing-page{
+  text-align: center;
+}
+.homepage-header{
+  text-align: center;
+  text-decoration: underline ;
+}
